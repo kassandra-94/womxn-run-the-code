@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html data-theme="lofi"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.9.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body class="h-screen snap-y snap-mandatory snap-proximity">
+    <section  id="presentation" class="snap-end snap-always">
+      <!--menu-->
+      <div class="navbar bg-slate-50 border-2 border-slate-900 ">
+        <div class="flex-1">
+          <a class="normal-case text-xl">LOGO</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>What we do</a></li>
+            <li><a> Our project</a></li>
+            <li><a>Who we are</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--hero-->
+      <div id="first_hero" class="hero h-4/5 border-2 border-slate-900">
+        <div
+          class="hero-content h-full text-center flex flex-col justify-center"
+        >
+          <div class="w-60 h-20 border-2 border-slate-900"></div>
+          <h1 class="text-3xl">Womxn run the code</h1>
+        </div>
+      </div>  
+  </section>
+
+  <section class="h-2/5 ">
+  <div class=" container flex flex-row my-8">
+    <div class="basis-1/2 w-40 h-60 border-2 border-slate-900 ml-10  "></div>
+    <div class="basis-1/2 text-left pl-20 mb-20">
+      <h1 class="text-5xl ml-12">Our mission</h1>
+      <p class="whitespace-pre text-lg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex
+        quibusdam, ad tempora minus fugit praesentium vel placeat corporis
+        rerum ut, beatae consectetur voluptas totam tempore. Vero repellat
+        alias praesentium.Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Sequi blanditiis accusamus quidem hic amet
+        placeat, consequatur, optio ratione
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section  id="what" class="h-screen snap-end snap-always">
+      <!--menu-->
+      <div class="navbar bg-slate-50 border-2 border-slate-900">
+        <div class="flex-1">
+          <a class="normal-case text-xl">LOGO</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>What we do</a></li>
+            <li><a> Our project</a></li>
+            <li><a>Who we are</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <!--hero-->
+      <div class="hero h-4/5">
+        <div class="hero-content flex-row-reverse">
+          <div
+            class="basis-1/2 w-30 h-96 border-2 border-slate-900 mt-5 ml-10"
+          ></div>
+          <div class="basis-1/2">
+            <h1 class="text-5xl mb-4">What we do</h1>
+            <p class=" text-lg whitespace-pre-line">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Architecto quaerat magni non maiores aliquam, eum itaque natus a
+              animi in provident iure est cum, adipisci distinctio qui
+              doloremque? Molestias, enim. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Similique reprehenderit vel optio
+              aperiam quibusdam corrupti ducimus? Exercitationem, natus totam ea
+              in aliquid, deserunt doloremque dolorum deleniti temporibus nulla
+              
+            </p>
+            <p class="text-lg mt-4">
+              
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sed molestias nulla mollitia dolor odio provident molestiae illum
+               minus qui enim labore reiciendis neque, dolores fugiat magnam 
+               repellat totam, exercitationem repellendus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Our_projects" class="h-screen bg-slate-300 overflow-x-hidden overflow-y-hidden  snap-center snap-always">
+      <!--menu-->
+      <div class="navbar bg-slate-300 border-2 border-slate-900">
+        <div class="flex-1">
+          <a class="normal-case text-xl">LOGO</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>What we do</a></li>
+            <li><a> Our project</a></li>
+            <li><a>Who we are</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="text-5xl mt-20 text-center">Our projects</h1>
+      <!--hero-->
+      <div class="hero h-4/5">
+        <button
+          id="prevProject"
+          class="justify-self-start hover:bg-slate-50 active:bg-gray-400 z-10"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-20 w-20"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+
+        <div
+          id="slider"
+          class="grid grid-cols-3 gap-10 content-center text-center h-2/3"
+          style="visibility: visible;"
+        >
+          <a href="">
+            <div>
+              <div
+                id="project1Slide"
+                class="w-80 h-96 bg-white border-2 border-slate-900"
+              ></div>
+              <h6 class="text-3xl my-2">Project A</h>
+            </div>
+          </a>
+
+          <a href="">
+            <div>
+              <div
+                id="project1Slide"
+                class="w-80 h-96 bg-white border-2 border-slate-900"
+              ></div>
+              <h6 class="text-3xl my-2">Project B</h6>
+            </div>
+          </a>
+
+          <a href="">
+          <div>
+            <div
+              id="project1Slide"
+              class="w-80 h-96 bg-white border-2 border-slate-900"
+            >
+            </div>
+            <h6 class="text-3xl my-2">Project C</h6>
+          </div>
+        </div>
+      </a>
+
+      <div
+          id="slider2"
+          class="grid grid-cols-3 gap-10 content-center text-center h-2/3  "
+          style="visibility: hidden;"
+        >
+          <a href="">
+            <div>
+              <div
+                id="project2Slide"
+                class="w-80 h-96 bg-white border-2 border-slate-900"
+              ></div>
+              <h6 class="text-3xl my-2">Project D</h>
+            </div>
+          </a>
+
+          <a href="">
+            <div>
+              <div
+                id="project2Slide"
+                class="w-80 h-96 bg-white border-2 border-slate-900"
+              ></div>
+              <h6 class="text-3xl my-2">Project E</h6>
+            </div>
+          </a>
+
+          <a href="">
+          <div>
+            <div
+              id="project2Slide"
+              class="w-80 h-96 bg-white border-2 border-slate-900"
+            >
+            </div>
+            <h6 class="text-3xl my-2">Project F</h6>
+          </div>
+        </div>
+      </a>
+      
+        <button
+          id="nextProject"
+          class="justify-self-end hover:bg-slate-50 active:bg-gray-400 z-10"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-20 w-20"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <section id="who" class="h-screen snap-center snap-always overflow-x-hidden overflow-y-hidden ">
+      <!--menu-->
+      <div class="navbar border-2 border-slate-900">
+        <div class="flex-1">
+          <a class="normal-case text-xl">LOGO</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>What we do</a></li>
+            <li><a> Our project</a></li>
+            <li><a>Who we are</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="text-5xl mt-20 text-center">Who we are</h1>
+      <!--hero-->
+      <div class="hero h-4/5 ">
+          <button
+            id="prevButtonSlideNames"
+            class="justify-self-start hover:bg-slate-50 active:bg-gray-400 z-10 "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-20 w-20"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19l-7-7 7-7"
+              />
+            </svg>
+          </button>
+
+          <div
+          id="slider_groups"
+          class="grid grid-cols-3 place-items-center text-center h-2/3 mx-10 px-10"
+          style="visibility: visible;"
+        >
+          
+            <div class="w-2/3 h-4/5 ">
+              <div
+                id="project1Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48 rounded-full bg-white border-2 border-slate-900"> </div> 
+          </a>
+          </div>
+              <h6 class="text-3xl my-2">Name A</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique
+                   </p>
+            </div>
+          
+            <div class="w-2/3 h-4/5">
+              <div
+                id="project1Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48  rounded-full bg-white border-2 border-slate-900"></div>
+          </a>
+          </div>
+              <h6 class="text-3xl my-2">Name B</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique 
+                 </p>
+            </div>
+          
+
+            <div class="w-2/3 h-4/5">
+              <div
+                id="project1Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48 rounded-full bg-white border-2 border-slate-900"></div>
+          </a>
+            </div>
+              <h6 class="text-3xl my-2 ">Name C</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique 
+                  </p>
+            </div>
+        </div>
+
+        <div
+          id="slider_groups2"
+          class="grid grid-cols-3 place-items-center text-center h-2/3  mx-10 px-10 "
+          style="visibility: hidden; transform: matrix();"
+        >
+      
+            <div class="w-2/3 h-4/5 ">
+              <div
+                id="project2Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48 rounded-full bg-white border-2 border-slate-900"> </div> 
+          </a>
+          </div>
+              <h6 class="text-3xl my-2">Name D</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique
+                  </p>
+            </div>
+          
+            <div class="w-2/3 h-4/5 ">
+              <div
+                id="project2Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48  rounded-full bg-white border-2 border-slate-900"></div>
+          </a>
+          </div>
+              <h6 class="text-3xl my-2">Name E</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique 
+                 </p>
+            </div>
+          
+
+            <div class="w-2/3 h-4/5">
+              <div
+                id="project2Slide"
+                class="avatar" >
+                <a href="" target="_blank" >
+            <div class=" w-48 h-48 rounded-full bg-white border-2 border-slate-900"></div>
+          </a>
+            </div>
+              <h6 class="text-3xl my-2">Name F</h6>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Obcaecati, laboriosam illo in nemo adipisci suscipit similique 
+                  </p>
+            </div>
+        </div>
+
+
+          <button
+          id="nextButtonSlideNames"
+          class="justify-self-end hover:bg-slate-50 active:bg-gray-400 z-10"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-20 w-20 z-10"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      
+    </div>
+    </section>
+   
+    <section id="contact" class="h-screen w-screen bg-slate-300  snap-end snap-always ">
+       <!--menu-->
+       <div class="navbar border-2 border-slate-900 bg-slate-200">
+        <div class="flex-1">
+          <a class="normal-case text-xl">LOGO</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal p-0">
+            <li><a>What we do</a></li>
+            <li><a> Our project</a></li>
+            <li><a>Who we are</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <h1 class="text-5xl mt-20 mb-10 text-center">Contact us </h1>
+      <!--hero-->
+      <div class=" hero w-screen" >
+        <form action="" class=" " >
+          <div class="hero-content flex flex-col">
+          <div class="w-full "> 
+            <input type="text" placeholder=" NAME" class="rounded-3xl  w-full py-3">
+          </div>
+          <div class="w-full ">
+            <input type="text" placeholder=" E-MAIL" class=" rounded-3xl w-full py-3">
+          </div>
+          <div class="w-full ">
+            <textarea name="" placeholder=" MESSAGE" id="" cols="40" rows="10" class="rounded-3xl w-full py-3" ></textarea>
+          </div>
+        </div>
+        </form>
+        </div>
+    </section>
+     <div class="footer bg-black h-48"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="sliding.js"></script>
+  </body>
+</html>
