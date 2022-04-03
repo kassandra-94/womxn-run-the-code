@@ -5,7 +5,6 @@ const nextButtProject = document.getElementById("nextProject");
 let slider1 = document.getElementById("slider");
 let slider2 = document.getElementById("slider2");
 
-// NAME SLIDING
 const prevButtonSlideNames = document.getElementById("prevButtonSlideNames");
 const nextButtonSlideNames = document.getElementById("nextButtonSlideNames");
 
